@@ -31,7 +31,7 @@ $ pip install pandas
 En la raíz del proyecto
 
 ```sh
-$ pyinstaller --clean --onefile --noconsole --icon=app.ico --add-data "app.ico;." --version-file=ver.py main.py
+$ pyinstaller --clean --onefile --noconsole --icon=app.ico --add-data "app.ico;." main.py
 ```
 
 Esto generará el archivo 'main.exe' que puede ser ejecutado standalone
