@@ -72,7 +72,7 @@ def concatExcel(root, textFrame, varDup):
         intoConsole('Archivo guardado en la ruta: ' + nombreArchivo, textFrame)
         intoConsole('____________________________________________________________', textFrame)
     else:
-        intoConsole('El archivo no se guardó...')
+        intoConsole('El archivo no se guardó...', textFrame)
         intoConsole('____________________________________________________________', textFrame)
 
 def concatCSV(root, textFrame, varDup):
@@ -100,7 +100,7 @@ def concatCSV(root, textFrame, varDup):
         intoConsole('Archivo guardado en la ruta: ' + nombreArchivo, textFrame)
         intoConsole('____________________________________________________________', textFrame)
     else:
-        intoConsole('El archivo no se guardó...')
+        intoConsole('El archivo no se guardó...', textFrame)
         intoConsole('____________________________________________________________', textFrame)
 
 def excel2CSV(root, textFrame, varDup):
@@ -128,7 +128,7 @@ def excel2CSV(root, textFrame, varDup):
         intoConsole('Archivo guardado en la ruta: ' + nombreArchivo, textFrame)
         intoConsole('____________________________________________________________', textFrame)
     else:
-        intoConsole('El archivo no se guardó...')
+        intoConsole('El archivo no se guardó...', textFrame)
         intoConsole('____________________________________________________________', textFrame)
 
 def duplicados(root, textFrame):
@@ -156,7 +156,7 @@ def duplicados(root, textFrame):
         intoConsole('Archivo guardado en la ruta: ' + nombreArchivo, textFrame)
         intoConsole('____________________________________________________________', textFrame)
     else:
-        intoConsole('El archivo no se guardó...')
+        intoConsole('El archivo no se guardó...', textFrame)
         intoConsole('____________________________________________________________', textFrame)
 
 def exit(root):
